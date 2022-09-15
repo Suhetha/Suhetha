@@ -1,0 +1,12 @@
+<html>
+<body>
+<p id="demo"></p>
+<script>
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+document.getElementById("demo").innerHTML = myFunction(12, 12);
+</script>
+<h2>The above value is calculation of product of two values</h2>
+</body>
+</html>
